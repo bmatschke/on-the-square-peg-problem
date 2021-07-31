@@ -1,0 +1,418 @@
+(************** Content-type: application/mathematica **************
+                     CreatedBy='Mathematica 5.2'
+
+                    Mathematica-Compatible Notebook
+
+This notebook can be used with any Mathematica-compatible
+application, such as Mathematica, MathReader or Publicon. The data
+for the notebook starts with the line containing stars above.
+
+To get the notebook into a Mathematica-compatible application, do
+one of the following:
+
+* Save the data starting with the line of stars above into a file
+  with a name ending in .nb, then open the file inside the
+  application;
+
+* Copy the data starting with the line of stars above to the
+  clipboard, then use the Paste menu command inside the application.
+
+Data for notebooks contains only printable 7-bit ASCII and can be
+sent directly in email or through ftp in text mode.  Newlines can be
+CR, LF or CRLF (Unix, Macintosh or MS-DOS style).
+
+NOTE: If you modify the data for this notebook not in a Mathematica-
+compatible application, you must delete the line below containing
+the word CacheID, otherwise Mathematica-compatible applications may
+try to use invalid cache data.
+
+For more information on notebooks and Mathematica-compatible 
+applications, contact Wolfram Research:
+  web: http://www.wolfram.com
+  email: info@wolfram.com
+  phone: +1-217-398-0700 (U.S.)
+
+Notebook reader applications are available free of charge from 
+Wolfram Research.
+*******************************************************************)
+
+(*CacheID: 232*)
+
+
+(*NotebookFileLineBreakTest
+NotebookFileLineBreakTest*)
+(*NotebookOptionsPosition[     16226,        335]*)
+(*NotebookOutlinePosition[     16872,        357]*)
+(*  CellTagsIndexPosition[     16828,        353]*)
+(*WindowFrame->Normal*)
+
+
+
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+    \(Xx = KiAx + la*\((KiBx - KiAx)\)\)], "Input"],
+
+Cell[BoxData[
+    \(KiAx + \((\(-KiAx\) + KiBx)\)\ la\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Xy = KiAy + la*\((KiBy - KiAy)\)\)], "Input"],
+
+Cell[BoxData[
+    \(KiAy + \((\(-KiAy\) + KiBy)\)\ la\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Yx = KjAx + mu*\((KjBx - KjAx)\)\)], "Input"],
+
+Cell[BoxData[
+    \(KjAx + \((\(-KjAx\) + KjBx)\)\ mu\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Yy = KjAy + mu*\((KjBy - KjAy)\)\)], "Input"],
+
+Cell[BoxData[
+    \(KjAy + \((\(-KjAy\) + KjBy)\)\ mu\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Zx = Yx + Xy - Yy\)], "Input"],
+
+Cell[BoxData[
+    \(KiAy + KjAx - 
+      KjAy + \((\(-KiAy\) + KiBy)\)\ la + \((\(-KjAx\) + 
+            KjBx)\)\ mu - \((\(-KjAy\) + KjBy)\)\ mu\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Zy = Yy - Xx + Yx\)], "Input"],
+
+Cell[BoxData[
+    \(\(-KiAx\) + KjAx + 
+      KjAy - \((\(-KiAx\) + KiBx)\)\ la + \((\(-KjAx\) + 
+            KjBx)\)\ mu + \((\(-KjAy\) + KjBy)\)\ mu\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Wx = Xx - Yy + Xy\)], "Input"],
+
+Cell[BoxData[
+    \(KiAx + KiAy - 
+      KjAy + \((\(-KiAx\) + KiBx)\)\ la + \((\(-KiAy\) + 
+            KiBy)\)\ la - \((\(-KjAy\) + KjBy)\)\ mu\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Wy = Xy + Yx - Xx\)], "Input"],
+
+Cell[BoxData[
+    \(\(-KiAx\) + KiAy + 
+      KjAx - \((\(-KiAx\) + KiBx)\)\ la + \((\(-KiAy\) + 
+            KiBy)\)\ la + \((\(-KjAx\) + KjBx)\)\ mu\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \({\((Zx - KkAx)\)*\((KkBy - KkAy)\) + \((Zy - KkAy)\)*\((KkAx - 
+                KkBx)\) \[Equal] 
+        0, \[IndentingNewLine]\((Wx - KlAx)\)*\((KlBy - KlAy)\) + \((Wy - 
+                KlAy)\)*\((KlAx - KlBx)\) \[Equal] 0}\)], "Input"],
+
+Cell[BoxData[
+    \({\((\(-KkAy\) + KkBy)\)\ \((KiAy + KjAx - KjAy - 
+                KkAx + \((\(-KiAy\) + KiBy)\)\ la + \((\(-KjAx\) + 
+                      KjBx)\)\ mu - \((\(-KjAy\) + KjBy)\)\ mu)\) + \((KkAx - 
+                KkBx)\)\ \((\(-KiAx\) + KjAx + KjAy - 
+                KkAy - \((\(-KiAx\) + KiBx)\)\ la + \((\(-KjAx\) + 
+                      KjBx)\)\ mu + \((\(-KjAy\) + KjBy)\)\ mu)\) \[Equal] 
+        0, \((KlAx - KlBx)\)\ \((\(-KiAx\) + KiAy + KjAx - 
+                KlAy - \((\(-KiAx\) + KiBx)\)\ la + \((\(-KiAy\) + 
+                      KiBy)\)\ la + \((\(-KjAx\) + 
+                      KjBx)\)\ mu)\) + \((\(-KlAy\) + KlBy)\)\ \((KiAx + 
+                KiAy - KjAy - 
+                KlAx + \((\(-KiAx\) + KiBx)\)\ la + \((\(-KiAy\) + 
+                      KiBy)\)\ la - \((\(-KjAy\) + KjBy)\)\ mu)\) \[Equal] 
+        0}\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(FullSimplify[
+      Solve[{\((Zx - Ex)\)*\((Fy - Ey)\) + \((Zy - Ey)\)*\((Ex - 
+                    Fx)\) \[Equal] 
+            0, \[IndentingNewLine]\((Wx - Gx)\)*\((Hy - Gy)\) + \((Wy - 
+                    Gy)\)*\((Gx - Hx)\) \[Equal] 0}, {lX, uY}]]\)], "Input"],
+
+Cell[BoxData[
+    \({{lX \[Rule] \((Cy\ Dx\ Ex\ Gx - Cx\ Dy\ Ex\ Gx + Cy\ Dx\ Ey\ Gx - 
+                Cx\ Dy\ Ey\ Gx - Cy\ Dx\ Fx\ Gx + Cx\ Dy\ Fx\ Gx - 
+                Cx\ Ey\ Fx\ Gx + Dx\ Ey\ Fx\ Gx - Cy\ Dx\ Fy\ Gx + 
+                Cx\ Dy\ Fy\ Gx + Cx\ Ex\ Fy\ Gx - Dx\ Ex\ Fy\ Gx - 
+                Cy\ Dx\ Ex\ Gy + Cx\ Dy\ Ex\ Gy + Cy\ Dx\ Ey\ Gy - 
+                Cx\ Dy\ Ey\ Gy + Cy\ Dx\ Fx\ Gy - Cx\ Dy\ Fx\ Gy - 
+                Cy\ Ey\ Fx\ Gy + Dy\ Ey\ Fx\ Gy - Cy\ Dx\ Fy\ Gy + 
+                Cx\ Dy\ Fy\ Gy + Cy\ Ex\ Fy\ Gy - Dy\ Ex\ Fy\ Gy - 
+                Cy\ Dx\ Ex\ Hx + Cx\ Dy\ Ex\ Hx - Cy\ Dx\ Ey\ Hx + 
+                Cx\ Dy\ Ey\ Hx + Cy\ Dx\ Fx\ Hx - Cx\ Dy\ Fx\ Hx + 
+                Cx\ Ey\ Fx\ Hx - Dx\ Ey\ Fx\ Hx + Cy\ Dx\ Fy\ Hx - 
+                Cx\ Dy\ Fy\ Hx - Cx\ Ex\ Fy\ Hx + Dx\ Ex\ Fy\ Hx + 
+                Cx\ Ex\ Gy\ Hx + Cy\ Ex\ Gy\ Hx - Dx\ Ex\ Gy\ Hx - 
+                Dy\ Ex\ Gy\ Hx - Cx\ Ey\ Gy\ Hx + Cy\ Ey\ Gy\ Hx + 
+                Dx\ Ey\ Gy\ Hx - Dy\ Ey\ Gy\ Hx - Cx\ Fx\ Gy\ Hx - 
+                Cy\ Fx\ Gy\ Hx + Dx\ Fx\ Gy\ Hx + Dy\ Fx\ Gy\ Hx + 
+                Cx\ Fy\ Gy\ Hx - Cy\ Fy\ Gy\ Hx - Dx\ Fy\ Gy\ Hx + 
+                Dy\ Fy\ Gy\ Hx + \((\(-Dy\)\ Ey\ Fx + 
+                      Dy\ Ex\ Fy + \((Dy\ \((Ex + Ey - Fx - Fy)\) + 
+                            Dx\ \((Ex - Ey - Fx + Fy)\))\)\ Gx - 
+                      Cx\ \((Ex - Ey - Fx + Fy)\)\ \((Dy + Gx)\) + 
+                      Cy\ \((Dx\ \((Ex - Ey - Fx + Fy)\) + 
+                            Ey\ \((Fx - Gx)\) + \((Fx + Fy)\)\ Gx - 
+                            Ex\ \((Fy + Gx)\))\))\)\ Hy + 
+                Ay\ \((\(-Dx\)\ Ex\ Gx - Dy\ Ex\ Gx - Dy\ Ey\ Gx + 
+                      Dx\ Fx\ Gx + Dy\ Fx\ Gx + Dy\ Fy\ Gx + Dx\ Ex\ Gy + 
+                      Dy\ Ex\ Gy - Dx\ Ey\ Gy - Dx\ Fx\ Gy - Dy\ Fx\ Gy + 
+                      Dx\ Fy\ Gy + Dx\ Ex\ Hx + Dy\ Ex\ Hx + Dy\ Ey\ Hx - 
+                      Dx\ Fx\ Hx - Dy\ Fx\ Hx - 
+                      Dy\ Fy\ Hx - \((Dy\ \((Ex - Fx)\) + 
+                            Dx\ \((Ex - Ey - Fx + Fy)\))\)\ Hy + 
+                      Cx\ \((\((Ey - Fy)\)\ \((Gy - Hy)\) + 
+                            Fx\ \((\(-Gx\) + Gy + Hx - Hy)\) + 
+                            Ex\ \((Gx - Gy - Hx + Hy)\))\) + 
+                      Cy\ \((\(-Fx\)\ Gx - Fy\ Gx + Fx\ Gy + 
+                            Ey\ \((Gx - Hx)\) + Fx\ Hx + Fy\ Hx - Fx\ Hy + 
+                            Ex\ \((Gx - Gy - Hx + Hy)\))\))\) + 
+                Ax\ \((Dy\ \((\(-Fx\)\ Gx - Fy\ Gx - Fy\ Gy + 
+                            Ex\ \((Gx - Hx)\) + Fx\ Hx + Fy\ Hx + 
+                            Ey\ \((Gx + Gy - Hx - Hy)\) + Fy\ Hy)\) + 
+                      Cy\ \((Fx\ Gx + Fy\ Gx + Fy\ Gy - Fx\ Hx - Fy\ Hx + 
+                            Ex\ \((\(-Gx\) + Hx)\) - Fy\ Hy + 
+                            Ey\ \((\(-Gx\) - Gy + Hx + Hy)\))\) + \((Cx - 
+                            Dx)\)\ \((\(-\((Ex - Fx)\)\)\ \((Gy - Hy)\) + 
+                            Ey\ \((Gx + Gy - Hx - Hy)\) + 
+                            Fy\ \((\(-Gx\) - Gy + Hx + 
+                                  Hy)\))\))\))\)/\((Ay\ \((\(-Dx\)\ Ex\ Gx - 
+                      Dy\ Ex\ Gx - Dy\ Ey\ Gx + Dx\ Fx\ Gx + Dy\ Fx\ Gx + 
+                      Dy\ Fy\ Gx + Dx\ Ex\ Gy + Dy\ Ex\ Gy - Dx\ Ey\ Gy - 
+                      Dx\ Fx\ Gy - Dy\ Fx\ Gy + Dx\ Fy\ Gy + Dx\ Ex\ Hx + 
+                      Dy\ Ex\ Hx + Dy\ Ey\ Hx - Dx\ Fx\ Hx - Dy\ Fx\ Hx - 
+                      Dy\ Fy\ Hx - \((Dy\ \((Ex - Fx)\) + 
+                            Dx\ \((Ex - Ey - Fx + Fy)\))\)\ Hy + 
+                      Cx\ \((\((Ey - Fy)\)\ \((Gy - Hy)\) + 
+                            Fx\ \((\(-Gx\) + Gy + Hx - Hy)\) + 
+                            Ex\ \((Gx - Gy - Hx + Hy)\))\) + 
+                      Cy\ \((\(-Fx\)\ Gx - Fy\ Gx + Fx\ Gy + 
+                            Ey\ \((Gx - Hx)\) + Fx\ Hx + Fy\ Hx - Fx\ Hy + 
+                            Ex\ \((Gx - Gy - Hx + Hy)\))\))\) + 
+                By\ \((Dx\ Ex\ Gx + Dy\ Ex\ Gx + Dy\ Ey\ Gx - Dx\ Fx\ Gx - 
+                      Dy\ Fx\ Gx - Dy\ Fy\ Gx - Dx\ Ex\ Gy - Dy\ Ex\ Gy + 
+                      Dx\ Ey\ Gy + Dx\ Fx\ Gy + Dy\ Fx\ Gy - Dx\ Fy\ Gy - 
+                      Dx\ Ex\ Hx - Dy\ Ex\ Hx - Dy\ Ey\ Hx + Dx\ Fx\ Hx + 
+                      Dy\ Fx\ Hx + 
+                      Dy\ Fy\ Hx + \((Dy\ \((Ex - Fx)\) + 
+                            Dx\ \((Ex - Ey - Fx + Fy)\))\)\ Hy + 
+                      Cy\ \((Fx\ Gx + Fy\ Gx - Fx\ Gy - Fx\ Hx - Fy\ Hx + 
+                            Ey\ \((\(-Gx\) + Hx)\) + 
+                            Ex\ \((\(-Gx\) + Gy + Hx - Hy)\) + Fx\ Hy)\) + 
+                      Cx\ \((\(-\((Ey - Fy)\)\)\ \((Gy - Hy)\) + 
+                            Ex\ \((\(-Gx\) + Gy + Hx - Hy)\) + 
+                            Fx\ \((Gx - Gy - Hx + Hy)\))\))\) - \((Ax - 
+                      Bx)\)\ \((Cy\ \((\(-Fx\)\ Gx - Fy\ Gx - Fy\ Gy + 
+                            Ex\ \((Gx - Hx)\) + Fx\ Hx + Fy\ Hx + 
+                            Ey\ \((Gx + Gy - Hx - Hy)\) + Fy\ Hy)\) + 
+                      Dy\ \((Fx\ Gx + Fy\ Gx + Fy\ Gy - Fx\ Hx - Fy\ Hx + 
+                            Ex\ \((\(-Gx\) + Hx)\) - Fy\ Hy + 
+                            Ey\ \((\(-Gx\) - Gy + Hx + Hy)\))\) - \((Cx - 
+                            Dx)\)\ \((\(-\((Ex - Fx)\)\)\ \((Gy - Hy)\) + 
+                            Ey\ \((Gx + Gy - Hx - Hy)\) + 
+                            Fy\ \((\(-Gx\) - Gy + Hx + Hy)\))\))\))\), 
+        uY \[Rule] \((By\ Cx\ Ex\ Gx - Bx\ Cy\ Ex\ Gx + By\ Cy\ Ex\ Gx + 
+                Bx\ Cx\ Ey\ Gx - Bx\ Cy\ Ey\ Gx + By\ Cy\ Ey\ Gx - 
+                By\ Cx\ Fx\ Gx + Bx\ Cy\ Fx\ Gx - By\ Cy\ Fx\ Gx - 
+                Bx\ Ey\ Fx\ Gx + By\ Ey\ Fx\ Gx - Bx\ Cx\ Fy\ Gx + 
+                Bx\ Cy\ Fy\ Gx - By\ Cy\ Fy\ Gx + Bx\ Ex\ Fy\ Gx - 
+                By\ Ex\ Fy\ Gx - Bx\ Cx\ Ex\ Gy - By\ Cx\ Ex\ Gy - 
+                By\ Cy\ Ex\ Gy + Bx\ Cx\ Ey\ Gy + By\ Cx\ Ey\ Gy - 
+                Bx\ Cy\ Ey\ Gy + Bx\ Cx\ Fx\ Gy + By\ Cx\ Fx\ Gy + 
+                By\ Cy\ Fx\ Gy - Bx\ Ey\ Fx\ Gy - By\ Ey\ Fx\ Gy - 
+                Bx\ Cx\ Fy\ Gy - By\ Cx\ Fy\ Gy + Bx\ Cy\ Fy\ Gy + 
+                Bx\ Ex\ Fy\ Gy + By\ Ex\ Fy\ Gy - By\ Cx\ Ex\ Hx + 
+                Bx\ Cy\ Ex\ Hx - By\ Cy\ Ex\ Hx - Bx\ Cx\ Ey\ Hx + 
+                Bx\ Cy\ Ey\ Hx - By\ Cy\ Ey\ Hx + By\ Cx\ Fx\ Hx - 
+                Bx\ Cy\ Fx\ Hx + By\ Cy\ Fx\ Hx + Bx\ Ey\ Fx\ Hx - 
+                By\ Ey\ Fx\ Hx + Bx\ Cx\ Fy\ Hx - Bx\ Cy\ Fy\ Hx + 
+                By\ Cy\ Fy\ Hx - Bx\ Ex\ Fy\ Hx + By\ Ex\ Fy\ Hx + 
+                Bx\ Ex\ Gy\ Hx + By\ Ey\ Gy\ Hx - Bx\ Fx\ Gy\ Hx - 
+                By\ Fy\ Gy\ Hx + \((By\ \((Cy\ \((Ex - Fx)\) + Ey\ Fx - 
+                            Ex\ Fy + Cx\ \((Ex - Ey - Fx + Fy)\) - Ey\ Gx + 
+                            Fy\ Gx)\) + 
+                      Bx\ \((Cy\ \((Ey - Fy)\) + 
+                            Cx\ \((Ex - Ey - Fx + Fy)\) + Fx\ \((Ey + Gx)\) - 
+                            Ex\ \((Fy + Gx)\))\))\)\ Hy + 
+                Ay\ \((\(-Cy\)\ Ex\ Gx - Cy\ Ey\ Gx + Cy\ Fx\ Gx - 
+                      Ey\ Fx\ Gx + Cy\ Fy\ Gx + Ex\ Fy\ Gx + Cy\ Ex\ Gy - 
+                      Cy\ Fx\ Gy + Ey\ Fx\ Gy - Ex\ Fy\ Gy + Cy\ Ex\ Hx + 
+                      Cy\ Ey\ Hx - Cy\ Fx\ Hx + Ey\ Fx\ Hx - Cy\ Fy\ Hx - 
+                      Ex\ Fy\ Hx - Ey\ Gy\ Hx + 
+                      Fy\ Gy\ Hx - \((Cy\ \((Ex - Fx)\) + Ey\ \((Fx - Gx)\) + 
+                            Fy\ \((\(-Ex\) + Gx)\))\)\ Hy + 
+                      Bx\ \((\(-Fx\)\ Gx - Fy\ Gx + Fx\ Gy - Fy\ Gy + 
+                            Fx\ Hx + Fy\ Hx + Ey\ \((Gx + Gy - Hx - Hy)\) - 
+                            Fx\ Hy + Fy\ Hy + 
+                            Ex\ \((Gx - Gy - Hx + Hy)\))\) + 
+                      Cx\ \((\(-\((Ey - Fy)\)\)\ \((Gy - Hy)\) + 
+                            Ex\ \((\(-Gx\) + Gy + Hx - Hy)\) + 
+                            Fx\ \((Gx - Gy - Hx + Hy)\))\))\) + 
+                Ax\ \((\(-Cx\)\ Ey\ Gx + Ey\ Fx\ Gx + Cx\ Fy\ Gx - 
+                      Ex\ Fy\ Gx + Cx\ Ex\ Gy - Cx\ Ey\ Gy - Cx\ Fx\ Gy + 
+                      Ey\ Fx\ Gy + Cx\ Fy\ Gy - Ex\ Fy\ Gy + Cx\ Ey\ Hx - 
+                      Ey\ Fx\ Hx - Cx\ Fy\ Hx + Ex\ Fy\ Hx - Ex\ Gy\ Hx + 
+                      Fx\ Gy\ Hx + \((Cx\ \((\(-Ex\) + Ey + Fx - Fy)\) - 
+                            Fx\ \((Ey + Gx)\) + Ex\ \((Fy + Gx)\))\)\ Hy + 
+                      Cy\ \((\(-Fx\)\ Gx - Fy\ Gx - Fy\ Gy + 
+                            Ex\ \((Gx - Hx)\) + Fx\ Hx + Fy\ Hx + 
+                            Ey\ \((Gx + Gy - Hx - Hy)\) + Fy\ Hy)\) + 
+                      By\ \((Fx\ Gx + Fy\ Gx - Fx\ Gy + Fy\ Gy - Fx\ Hx - 
+                            Fy\ Hx + Ex\ \((\(-Gx\) + Gy + Hx - Hy)\) + 
+                            Fx\ Hy - Fy\ Hy + 
+                            Ey\ \((\(-Gx\) - Gy + Hx + 
+                                  Hy)\))\))\))\)/\((By\ \((\(-Dx\)\ Ex\ Gx - 
+                      Dy\ Ex\ Gx - Dy\ Ey\ Gx + Dx\ Fx\ Gx + Dy\ Fx\ Gx + 
+                      Dy\ Fy\ Gx + Dx\ Ex\ Gy + Dy\ Ex\ Gy - Dx\ Ey\ Gy - 
+                      Dx\ Fx\ Gy - Dy\ Fx\ Gy + Dx\ Fy\ Gy + Dx\ Ex\ Hx + 
+                      Dy\ Ex\ Hx + Dy\ Ey\ Hx - Dx\ Fx\ Hx - Dy\ Fx\ Hx - 
+                      Dy\ Fy\ Hx - \((Dy\ \((Ex - Fx)\) + 
+                            Dx\ \((Ex - Ey - Fx + Fy)\))\)\ Hy + 
+                      Cx\ \((\((Ey - Fy)\)\ \((Gy - Hy)\) + 
+                            Fx\ \((\(-Gx\) + Gy + Hx - Hy)\) + 
+                            Ex\ \((Gx - Gy - Hx + Hy)\))\) + 
+                      Cy\ \((\(-Fx\)\ Gx - Fy\ Gx + Fx\ Gy + 
+                            Ey\ \((Gx - Hx)\) + Fx\ Hx + Fy\ Hx - Fx\ Hy + 
+                            Ex\ \((Gx - Gy - Hx + Hy)\))\))\) + 
+                Ay\ \((Dx\ Ex\ Gx + Dy\ Ex\ Gx + Dy\ Ey\ Gx - Dx\ Fx\ Gx - 
+                      Dy\ Fx\ Gx - Dy\ Fy\ Gx - Dx\ Ex\ Gy - Dy\ Ex\ Gy + 
+                      Dx\ Ey\ Gy + Dx\ Fx\ Gy + Dy\ Fx\ Gy - Dx\ Fy\ Gy - 
+                      Dx\ Ex\ Hx - Dy\ Ex\ Hx - Dy\ Ey\ Hx + Dx\ Fx\ Hx + 
+                      Dy\ Fx\ Hx + 
+                      Dy\ Fy\ Hx + \((Dy\ \((Ex - Fx)\) + 
+                            Dx\ \((Ex - Ey - Fx + Fy)\))\)\ Hy + 
+                      Cy\ \((Fx\ Gx + Fy\ Gx - Fx\ Gy - Fx\ Hx - Fy\ Hx + 
+                            Ey\ \((\(-Gx\) + Hx)\) + 
+                            Ex\ \((\(-Gx\) + Gy + Hx - Hy)\) + Fx\ Hy)\) + 
+                      Cx\ \((\(-\((Ey - Fy)\)\)\ \((Gy - Hy)\) + 
+                            Ex\ \((\(-Gx\) + Gy + Hx - Hy)\) + 
+                            Fx\ \((Gx - Gy - Hx + Hy)\))\))\) + \((Ax - 
+                      Bx)\)\ \((Cy\ \((\(-Fx\)\ Gx - Fy\ Gx - Fy\ Gy + 
+                            Ex\ \((Gx - Hx)\) + Fx\ Hx + Fy\ Hx + 
+                            Ey\ \((Gx + Gy - Hx - Hy)\) + Fy\ Hy)\) + 
+                      Dy\ \((Fx\ Gx + Fy\ Gx + Fy\ Gy - Fx\ Hx - Fy\ Hx + 
+                            Ex\ \((\(-Gx\) + Hx)\) - Fy\ Hy + 
+                            Ey\ \((\(-Gx\) - Gy + Hx + Hy)\))\) - \((Cx - 
+                            Dx)\)\ \((\(-\((Ex - Fx)\)\)\ \((Gy - Hy)\) + 
+                            Ey\ \((Gx + Gy - Hx - Hy)\) + 
+                            Fy\ \((\(-Gx\) - Gy + Hx + 
+                                  Hy)\))\))\))\)}}\)], "Output"]
+}, Open  ]]
+},
+FrontEndVersion->"5.2 for Microsoft Windows",
+ScreenRectangle->{{0, 1280}, {0, 713}},
+WindowSize->{1208, 698},
+WindowMargins->{{10, Automatic}, {Automatic, 18}}
+]
+
+(*******************************************************************
+Cached data follows.  If you edit this Notebook file directly, not
+using Mathematica, you must remove the line containing CacheID at
+the top of  the file.  The cache data will then be recreated when
+you save this file from within Mathematica.
+*******************************************************************)
+
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+
+(*NotebookFileOutline
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[1776, 53, 65, 1, 35, "Input"],
+Cell[1844, 56, 67, 1, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[1948, 62, 65, 1, 35, "Input"],
+Cell[2016, 65, 67, 1, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2120, 71, 65, 1, 35, "Input"],
+Cell[2188, 74, 67, 1, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2292, 80, 65, 1, 35, "Input"],
+Cell[2360, 83, 67, 1, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2464, 89, 50, 1, 35, "Input"],
+Cell[2517, 92, 159, 3, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2713, 100, 50, 1, 35, "Input"],
+Cell[2766, 103, 164, 3, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2967, 111, 50, 1, 35, "Input"],
+Cell[3020, 114, 159, 3, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3216, 122, 50, 1, 35, "Input"],
+Cell[3269, 125, 164, 3, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3470, 133, 259, 4, 61, "Input"],
+Cell[3732, 139, 869, 14, 109, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4638, 158, 285, 5, 61, "Input"],
+Cell[4926, 165, 11284, 167, 1584, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+
+
+(*******************************************************************
+End of Mathematica Notebook file.
+*******************************************************************)
+

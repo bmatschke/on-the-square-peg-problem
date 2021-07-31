@@ -1,0 +1,17 @@
+<jnlp spec="1.0+" codebase="file:///C:\Program Files\eclipse\workspace\SquarePegProgram" href="SquarePegProgram.jnlp">
+<information>
+<title>Type-Ahead Text Editor</title>
+<vendor>Benjamin Matschke</vendor>
+<!-- <homepage href="index.html"/> -->
+<description>Square Peg Problem Program</description>
+<description kind="short">Square Peg Problem Program</description>
+<description kind="tooltip">Square Peg Problem Program</description>
+<!-- <icon href="img/logo.gif"/> -->
+<offline-allowed/>
+</information>
+<resources>
+<j2se version="1.3+"/>
+<jar href="SquarePegProgram.jar"/>
+</resources>
+<application-desc main-class="SquarePegProgram"/>
+</jnlp>
