@@ -10,5 +10,5 @@ This repository contains programs and code related to the author's article "[On 
   The same, now as an executable java program. 
 
 - `Inscribed Octahedra`:
-  Computations in Maple that were used in the last section of the article to prove the existence of the test-map in question for octahedra inscribed in metric 2-spheres.
+  Computations in Maple and SageMath that were used in the last section of the article to prove the existence of the test-map in question for octahedra inscribed in metric 2-spheres.
   
