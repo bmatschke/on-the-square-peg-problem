@@ -13,4 +13,5 @@ This repository contains programs and code related to the author's article "[On 
   Computations in Maple and SageMath that were used in the last section of the article to prove the existence of the test-map in question for octahedra inscribed in metric 2-spheres.
   
 - `Inscribed Rectangles`:
-  SageMath script that shows that the (up to symmetry) two inscribed rectangles in an ellipse (not a circle) have the opposite preimage orientation when using a natural configuration-space/test-map scheme.
+  - SageMath script that shows that the (up to symmetry) two inscribed rectangles in an ellipse (not a circle) have the opposite preimage orientation when using a natural configuration-space/test-map scheme.
+  - SageMath script that studies the one-dimensional components of inscribed rectangles with arbitrary aspect ratio; tried to construct counter-examples based on Z/4-invariant components (which is now obsolete by Greene--Lobb's theorem).
